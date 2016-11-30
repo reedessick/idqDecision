@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nohup lvalert_listen -a gdb_processor -s lvalert.cgca.uwm.edu -r idqDecision -c /home/gracedb.processor/users/ressick/idqDecision/etc/lvalert-iDQdecision.ini --dont-wait >> /home/gracedb.processor/users/ressick/working/idqDecision.out 2>> /home/gracedb.processor/users/ressick/working/idqDecision.err &
